@@ -222,8 +222,8 @@
 
                         // Анализ соседей по правилам:
 
-                        if(neighbour>3 && table[i][j]=true){new_table[i][j]=false;};             
-                        if(neighbour<2 && table[i][j]=true){new_table[i][j]=false;};
+                        if(neighbour>3 && table[i][j]==true){new_table[i][j]=false;};             
+                        if(neighbour<2 && table[i][j]==true){new_table[i][j]=false;};
                         
                         if(neighbour==3 && table[i][j]==false){new_table[i][j]=true;};
                         if((neighbour==3 || neighbour==2) && table[i][j]==false){new_table[i][j]=true;};
